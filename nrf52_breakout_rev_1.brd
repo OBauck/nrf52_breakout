@@ -209,6 +209,18 @@ MMA8452 addr: 0x1C</text>
 <wire x1="27" y1="6.5" x2="27" y2="19" width="0.2" layer="22"/>
 <wire x1="27" y1="19" x2="37" y2="19" width="0.2" layer="22"/>
 <wire x1="37" y1="19" x2="37" y2="6.5" width="0.2" layer="22"/>
+<wire x1="20.119125" y1="9.84125" x2="20.119125" y2="11.48425" width="0.254" layer="22"/>
+<wire x1="20.119125" y1="9.84125" x2="20.373125" y2="10.09525" width="0.254" layer="22"/>
+<wire x1="20.119125" y1="9.84125" x2="19.865125" y2="10.09525" width="0.254" layer="22"/>
+<wire x1="20.398525" y1="10.12065" x2="19.839725" y2="10.12065" width="0.254" layer="22"/>
+<text x="21.4682" y="13.439725" size="1.016" layer="22" font="vector" ratio="15" rot="SR270">Y</text>
+<text x="18.60775" y="11.456975" size="1.016" layer="22" font="vector" ratio="15" rot="SR270">X</text>
+<wire x1="22.45415" y1="12.129925" x2="20.81115" y2="12.129925" width="0.254" layer="22"/>
+<wire x1="22.45415" y1="12.129925" x2="22.20015" y2="12.383925" width="0.254" layer="22"/>
+<wire x1="22.45415" y1="12.129925" x2="22.20015" y2="11.875925" width="0.254" layer="22"/>
+<wire x1="22.17475" y1="12.409325" x2="22.17475" y2="11.850525" width="0.254" layer="22"/>
+<text x="12.4242625" y="18.499996875" size="0.8" layer="25" ratio="13" align="center">R</text>
+<text x="12.48284375" y="17.15856875" size="0.8" layer="25" ratio="13" align="center">B</text>
 </plain>
 <libraries>
 <library name="BauckLib">

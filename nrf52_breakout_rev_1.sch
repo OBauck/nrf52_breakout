@@ -3167,11 +3167,6 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <sheets>
 <sheet>
 <plain>
-<text x="83.82" y="195.58" size="5.08" layer="97">TODO:
-- Add button
-- Add NFC connector -&gt; tuning network
-- Add coin cell holder?
-- Decoupling capacitors</text>
 <text x="118.364" y="50.292" size="2.032" layer="97">i2c address: 0x1C</text>
 </plain>
 <instances>
@@ -3918,10 +3913,6 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </schematic>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
