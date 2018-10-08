@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3168,6 +3168,10 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <sheet>
 <plain>
 <text x="118.364" y="50.292" size="2.032" layer="97">i2c address: 0x1C</text>
+<text x="76.2" y="193.04" size="5.08" layer="97">nrf module wrong package
+Change module to laird bl600?
+Change acc to MMA8652? easier to solder
+Change to tag connect prog</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -3913,6 +3917,10 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
