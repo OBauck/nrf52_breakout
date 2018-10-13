@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -353,7 +353,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-6.75" y1="9" x2="-6.75" y2="-9" width="0.15" layer="21"/>
 <text x="0" y="7.8" size="1.27" layer="21" font="vector" align="center">Antenna</text>
 </package>
-<package name="SON40P200X200X100-10N" urn="urn:adsk.eagle:footprint:5825595/1" library_version="6">
+<package name="SON40P200X200X100-10N" urn="urn:adsk.eagle:footprint:5825595/2" library_version="7" library_locally_modified="yes">
 <description>&lt;b&gt;DFN-COL 2X2X0.95&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-0.95" y="0.8" dx="0.85" dy="0.2" layer="1"/>
@@ -367,7 +367,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="9" x="0.95" y="0.4" dx="0.85" dy="0.2" layer="1"/>
 <smd name="10" x="0.95" y="0.8" dx="0.85" dy="0.2" layer="1"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-1.625" y1="1.25" x2="1.625" y2="1.25" width="0.05" layer="51"/>
 <wire x1="1.625" y1="1.25" x2="1.625" y2="-1.25" width="0.05" layer="51"/>
 <wire x1="1.625" y1="-1.25" x2="-1.625" y2="-1.25" width="0.05" layer="51"/>
@@ -413,18 +412,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <packages3d>
-<package3d name="HOLYIOT_18010_REDUCED" urn="urn:adsk.eagle:package:5825596/1" type="box" library_version="6">
+<package3d name="HOLYIOT_18010_REDUCED" urn="urn:adsk.eagle:package:5825596/2" type="box" library_version="7" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="HOLYIOT_18010_REDUCED"/>
 </packageinstances>
 </package3d>
-<package3d name="SON40P200X200X100-10N" urn="urn:adsk.eagle:package:5825597/1" type="box" library_version="6">
-<description>&lt;b&gt;DFN-COL 2X2X0.95&lt;/b&gt;&lt;br&gt;</description>
+<package3d name="SON40P200X200X100-10N" urn="urn:adsk.eagle:package:5825597/3" type="model" library_version="7" library_locally_modified="yes">
+<description>&lt;b&gt;DFN-COL 2X2X0.95&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="SON40P200X200X100-10N"/>
 </packageinstances>
 </package3d>
-<package3d name="SOIC127P600X175-8N" urn="urn:adsk.eagle:package:3137286/3" type="box" library_version="6" library_locally_modified="yes">
+<package3d name="SOIC127P600X175-8N" urn="urn:adsk.eagle:package:3137286/4" type="model" library_version="7" library_locally_modified="yes">
 <description>&lt;b&gt;D (R-PDSO-G8)&lt;/b&gt;&lt;br&gt;
 </description>
 <packageinstances>
@@ -495,7 +494,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="GND_2" x="30.48" y="-7.62" length="middle" rot="R180"/>
 <pin name="GND_1" x="30.48" y="-10.16" length="middle" rot="R180"/>
 </symbol>
-<symbol name="AT30TS74" library_version="6" library_locally_modified="yes">
+<symbol name="AT30TS74" urn="urn:adsk.eagle:symbol:5921569/1" library_version="7" library_locally_modified="yes">
 <wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
 <wire x1="27.94" y1="2.54" x2="27.94" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="27.94" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
@@ -513,7 +512,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="HOLYIOT_18010" urn="urn:adsk.eagle:component:5825598/1" prefix="IC" library_version="6">
+<deviceset name="HOLYIOT_18010" urn="urn:adsk.eagle:component:5825598/1" locally_modified="yes" prefix="IC" library_version="7" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="HOLYIOT_18010_REDUCED" x="0" y="2.54"/>
 </gates>
@@ -559,7 +558,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="VDD_NRF" pad="14"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5825596/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5825596/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -570,7 +569,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="MMA8652FCR1" urn="urn:adsk.eagle:component:5825599/1" prefix="IC" library_version="6">
+<deviceset name="MMA8652FCR1" urn="urn:adsk.eagle:component:5825599/2" locally_modified="yes" prefix="IC" library_version="7" library_locally_modified="yes">
 <description>&lt;b&gt;NXP MMA8652FCR1, 3-Axis Accelerometer, 2 g, 4 g, 8 g, 1.95  3.6 V, Serial-I2C, DFN 10-Pin&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://cache.freescale.com/files/sensors/doc/data_sheet/MMA8652FC.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -591,7 +590,7 @@ Source: &lt;a href="https://cache.freescale.com/files/sensors/doc/data_sheet/MMA
 <connect gate="G$1" pin="VDDIO" pad="8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5825597/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5825597/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -608,7 +607,7 @@ Source: &lt;a href="https://cache.freescale.com/files/sensors/doc/data_sheet/MMA
 </device>
 </devices>
 </deviceset>
-<deviceset name="AT30TS74" prefix="IC" library_version="6" library_locally_modified="yes">
+<deviceset name="AT30TS74" urn="urn:adsk.eagle:component:5921573/1" locally_modified="yes" prefix="IC" library_version="7" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="AT30TS74" x="-17.78" y="5.08"/>
 </gates>
@@ -625,7 +624,7 @@ Source: &lt;a href="https://cache.freescale.com/files/sensors/doc/data_sheet/MMA
 <connect gate="G$1" pin="VCC" pad="8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:3137286/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3137286/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -666,7 +665,7 @@ Source: &lt;a href="https://cache.freescale.com/files/sensors/doc/data_sheet/MMA
 </package>
 </packages>
 <packages3d>
-<package3d name="TACTILE_SWITCH_SMD_4.6X2.8MM" urn="urn:adsk.eagle:package:5816156/1" type="box" library_version="3">
+<package3d name="TACTILE_SWITCH_SMD_4.6X2.8MM" urn="urn:adsk.eagle:package:5816156/2" type="model" library_version="4" library_locally_modified="yes">
 <description>Momentary Switch (Pushbutton) - SPST - SMD, 4.6 x 2.8mm
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
 Datasheet</description>
@@ -690,7 +689,7 @@ Datasheet</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="KMR2" urn="urn:adsk.eagle:component:3296802/2" prefix="S" library_version="3">
+<deviceset name="KMR2" urn="urn:adsk.eagle:component:3296802/2" locally_modified="yes" prefix="S" library_version="4" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="SWITCH-MOMENTARY-2" x="2.54" y="0"/>
 </gates>
@@ -701,7 +700,7 @@ Datasheet</description>
 <connect gate="G$1" pin="2" pad="3 4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5816156/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5816156/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -842,7 +841,7 @@ Datasheet</description>
 <wire x1="-2.3" y1="-3.85" x2="2.3" y2="-3.85" width="0.1" layer="21"/>
 <wire x1="2.3" y1="-3.85" x2="2.3" y2="-0.3" width="0.1" layer="21"/>
 </package>
-<package name="1X13_NO_SILK" library_version="4" library_locally_modified="yes">
+<package name="1X13_NO_SILK" urn="urn:adsk.eagle:footprint:5921578/1" library_version="5" library_locally_modified="yes">
 <pad name="1" x="-15.24" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="2" x="-12.7" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="3" x="-10.16" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
@@ -1241,7 +1240,7 @@ Holes are offset 0.005" to hold pins in place while soldering.
 </package>
 </packages>
 <packages3d>
-<package3d name="2X5-PTH-1.27MM" urn="urn:adsk.eagle:package:3667277/1" type="box" library_version="4">
+<package3d name="2X5-PTH-1.27MM" urn="urn:adsk.eagle:package:3667277/2" type="box" library_version="5" library_locally_modified="yes">
 <description>&lt;h3&gt;Plated Through Hole - 2x5 ARM Cortex Debug Connector (10-pin)&lt;/h3&gt;
 &lt;p&gt;tDoc (51) layer border represents maximum dimensions of plastic housing.&lt;/p&gt;
 &lt;p&gt;Specifications:
@@ -1276,7 +1275,7 @@ Holes are offset 0.005" to hold pins in place while soldering.
 <packageinstance name="3220-10-0300-00"/>
 </packageinstances>
 </package3d>
-<package3d name="51281-0594" urn="urn:adsk.eagle:package:5816150/1" type="box" library_version="4">
+<package3d name="51281-0594" urn="urn:adsk.eagle:package:5816150/2" type="model" library_version="5" library_locally_modified="yes">
 <description>&lt;b&gt;51281-0594&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="51281-0594"/>
@@ -1336,6 +1335,11 @@ CONN_13
 <packageinstance name="1X13_LOCK_NO_SILK"/>
 </packageinstances>
 </package3d>
+<package3d name="1X13_NO_SILK" urn="urn:adsk.eagle:package:5921581/2" type="model" library_version="5" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="1X13_NO_SILK"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="CORTEX_DEBUG" urn="urn:adsk.eagle:symbol:3667144/1" library_version="4">
@@ -1377,7 +1381,7 @@ CONN_13
 <pin name="4" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="5" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="CONN_13" library_version="4" library_locally_modified="yes">
+<symbol name="CONN_13" urn="urn:adsk.eagle:symbol:5921575/1" library_version="5" library_locally_modified="yes">
 <description>&lt;h3&gt; 13 Pin Connection&lt;/h3&gt;</description>
 <wire x1="6.35" y1="-17.78" x2="0" y2="-17.78" width="0.4064" layer="94"/>
 <wire x1="3.81" y1="-10.16" x2="5.08" y2="-10.16" width="0.6096" layer="94"/>
@@ -1414,7 +1418,7 @@ CONN_13
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CORTEX_DEBUG" urn="urn:adsk.eagle:component:3667337/1" prefix="J" library_version="4">
+<deviceset name="CORTEX_DEBUG" urn="urn:adsk.eagle:component:3667337/1" locally_modified="yes" prefix="J" library_version="5" library_locally_modified="yes">
 <description>&lt;h3&gt;Cortex Debug Connector - 10 pin&lt;/h3&gt;
 &lt;p&gt;Supports JTAG debug, Serial Wire debug, and Serial Wire Viewer.
 PTH and SMD connector options available.&lt;/p&gt;
@@ -1462,7 +1466,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 <connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:3667277/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3667277/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1493,7 +1497,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="51281-0594" urn="urn:adsk.eagle:component:5816151/1" prefix="J" library_version="4">
+<deviceset name="51281-0594" urn="urn:adsk.eagle:component:5816151/1" locally_modified="yes" prefix="J" library_version="5" library_locally_modified="yes">
 <description>&lt;b&gt;FFC &amp; FPC Connectors 0.5 FPC Non-ZIF 5Ckt Dual Contact&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.molex.com/pdm_docs/sd/512810594_sd.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1509,7 +1513,7 @@ Source: &lt;a href="http://www.molex.com/pdm_docs/sd/512810594_sd.pdf"&gt; Datas
 <connect gate="G$1" pin="5" pad="5"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5816150/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5816150/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1527,7 +1531,7 @@ Source: &lt;a href="http://www.molex.com/pdm_docs/sd/512810594_sd.pdf"&gt; Datas
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONN_13" prefix="J" uservalue="yes" library_version="4" library_locally_modified="yes">
+<deviceset name="CONN_13" urn="urn:adsk.eagle:component:5921584/1" locally_modified="yes" prefix="J" uservalue="yes" library_version="5" library_locally_modified="yes">
 <description>&lt;h3&gt;Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections&lt;/h3&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -1673,6 +1677,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5921581/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -2910,6 +2917,43 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <wire x1="10.6" y1="0" x2="3.4" y2="-10" width="0.2" layer="21" curve="-71.221967"/>
 <wire x1="10.6" y1="0" x2="3.5" y2="10" width="0.2" layer="21" curve="70.709954"/>
 </package>
+<package name="BK-5067" urn="urn:adsk.eagle:footprint:5921565/1" library_version="4" library_locally_modified="yes">
+<smd name="N" x="0" y="0" dx="14" dy="14" layer="1"/>
+<smd name="P1" x="-12.33" y="0" dx="6.07" dy="6.07" layer="1"/>
+<smd name="P2" x="12.33" y="0" dx="6.07" dy="6.07" layer="1"/>
+<circle x="0" y="-1.5" radius="10" width="0.1" layer="51"/>
+<wire x1="-10.555" y1="7.76" x2="-10.555" y2="-6" width="0.1" layer="21"/>
+<wire x1="-10.555" y1="-6" x2="-4" y2="-12.05" width="0.1" layer="21"/>
+<wire x1="-4" y1="-12.05" x2="4" y2="-12.05" width="0.1" layer="21"/>
+<wire x1="4" y1="-12.05" x2="10.555" y2="-6" width="0.1" layer="21"/>
+<wire x1="10.555" y1="-6" x2="10.555" y2="7.76" width="0.1" layer="21"/>
+<wire x1="10.555" y1="7.76" x2="-10.555" y2="7.76" width="0.1" layer="21"/>
+</package>
+<package name="BK-916-TR" urn="urn:adsk.eagle:footprint:5921566/1" library_version="4" library_locally_modified="yes">
+<description>&lt;b&gt;BK-916-TR&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="N" x="0" y="0" dx="10.2" dy="10.2" layer="1" roundness="100" thermals="no"/>
+<smd name="P2" x="-7.65" y="0" dx="5.1" dy="2.5" layer="1" rot="R90"/>
+<smd name="P1" x="7.65" y="0" dx="5.1" dy="2.5" layer="1" rot="R90"/>
+<text x="-1.603" y="7.675" size="1.27" layer="25" align="center">&gt;NAME</text>
+<wire x1="-6.75" y1="2.55" x2="-4.75" y2="4.55" width="0.2" layer="51"/>
+<wire x1="-4.75" y1="4.55" x2="4.75" y2="4.55" width="0.2" layer="51"/>
+<wire x1="4.75" y1="4.55" x2="6.75" y2="2.55" width="0.2" layer="51"/>
+<wire x1="6.75" y1="2.55" x2="6.75" y2="-2.95" width="0.2" layer="51"/>
+<wire x1="6.75" y1="-2.95" x2="4.75" y2="-4.95" width="0.2" layer="51"/>
+<wire x1="4.75" y1="-4.95" x2="-4.75" y2="-4.95" width="0.2" layer="51"/>
+<wire x1="-4.75" y1="-4.95" x2="-6.75" y2="-2.95" width="0.2" layer="51"/>
+<wire x1="-6.75" y1="-2.95" x2="-6.75" y2="2.55" width="0.2" layer="51"/>
+<wire x1="-6.75" y1="-2.95" x2="-4.75" y2="-4.95" width="0.2" layer="21"/>
+<wire x1="4.75" y1="-4.95" x2="6.75" y2="-2.95" width="0.2" layer="21"/>
+<wire x1="4.75" y1="-4.95" x2="1.968" y2="-4.95" width="0.2" layer="21"/>
+<wire x1="-4.75" y1="-4.95" x2="-1.968" y2="-4.95" width="0.2" layer="21"/>
+<wire x1="-4.75" y1="4.55" x2="-6.526" y2="2.774" width="0.2" layer="21"/>
+<wire x1="4.75" y1="4.55" x2="6.476" y2="2.824" width="0.2" layer="21"/>
+<wire x1="-4.75" y1="4.55" x2="-2.7" y2="4.55" width="0.2" layer="21"/>
+<wire x1="4.75" y1="4.55" x2="2.7" y2="4.55" width="0.2" layer="21"/>
+<circle x="0" y="0" radius="6" width="0.1" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="AA_BATTERY_596_590" urn="urn:adsk.eagle:package:3667090/1" type="box" library_version="2" library_locally_modified="yes">
@@ -2938,10 +2982,22 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <packageinstance name="3000"/>
 </packageinstances>
 </package3d>
-<package3d name="BU2032SM-HD-G" urn="urn:adsk.eagle:package:5825591/1" type="box" library_version="3">
-<description>&lt;b&gt;BU2032SM-HD-G&lt;/b&gt;&lt;br&gt;</description>
+<package3d name="BU2032SM-HD-G" urn="urn:adsk.eagle:package:5825591/2" type="model" library_version="4" library_locally_modified="yes">
+<description>&lt;b&gt;BU2032SM-HD-G&lt;/b&gt;&lt;br&gt;
+</description>
 <packageinstances>
 <packageinstance name="BU2032SM-HD-G"/>
+</packageinstances>
+</package3d>
+<package3d name="BK-5067" urn="urn:adsk.eagle:package:5921567/1" type="box" library_version="4" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="BK-5067"/>
+</packageinstances>
+</package3d>
+<package3d name="BK-916-TR" urn="urn:adsk.eagle:package:5921568/3" type="model" library_version="4" library_locally_modified="yes">
+<description>&lt;b&gt;BK-916-TR&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="BK-916-TR"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2957,7 +3013,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BATTERY" urn="urn:adsk.eagle:component:3667127/3" prefix="B" library_version="3">
+<deviceset name="BATTERY" urn="urn:adsk.eagle:component:3667127/4" locally_modified="yes" prefix="B" library_version="4" library_locally_modified="yes">
 <description>596: https://www.digikey.com/product-detail/en/keystone-electronics/596/36-596-ND/2137852
 590: https://www.digikey.com/product-detail/en/keystone-electronics/590/36-590-ND/2137886
 
@@ -3041,12 +3097,42 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <connect gate="G$1" pin="-" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5825591/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5825591/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MANUFACTURER_NAME" value="MPD" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="BU2032SM-HD-G" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-BK-5067" package="BK-5067">
+<connects>
+<connect gate="G$1" pin="+" pad="P1 P2"/>
+<connect gate="G$1" pin="-" pad="N"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5921567/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_NAME" value="MPD" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BK-5067-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-BK-916" package="BK-916-TR">
+<connects>
+<connect gate="G$1" pin="+" pad="P1 P2"/>
+<connect gate="G$1" pin="-" pad="N"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5921568/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_NAME" value="MPD" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BK-916-TR" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3065,7 +3151,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
-<part name="PROG" library="Inventas-Connectors" library_urn="urn:adsk.eagle:library:3667136" deviceset="CORTEX_DEBUG" device="_PTH" package3d_urn="urn:adsk.eagle:package:3667277/1" value="CORTEX_DEBUG_PTH"/>
+<part name="PROG" library="Inventas-Connectors" library_urn="urn:adsk.eagle:library:3667136" deviceset="CORTEX_DEBUG" device="_PTH" package3d_urn="urn:adsk.eagle:package:3667277/2" value="CORTEX_DEBUG_PTH"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VDD" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VDD" device=""/>
@@ -3076,12 +3162,12 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="R3" library="Inventas-Passives" library_urn="urn:adsk.eagle:library:3125287" deviceset="RES-0.063W-5%-" device="0402" package3d_urn="urn:adsk.eagle:package:3125390/3" value="1k"/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VDD" device=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VDD" device=""/>
-<part name="J2" library="Inventas-Connectors" library_urn="urn:adsk.eagle:library:3667136" deviceset="CONN_13" device="NO_SILK" value="NO_BOM"/>
-<part name="J1" library="Inventas-Connectors" library_urn="urn:adsk.eagle:library:3667136" deviceset="CONN_13" device="NO_SILK" value="NO_BOM"/>
+<part name="J2" library="Inventas-Connectors" library_urn="urn:adsk.eagle:library:3667136" deviceset="CONN_13" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:5921581/2" value="NO_BOM"/>
+<part name="J1" library="Inventas-Connectors" library_urn="urn:adsk.eagle:library:3667136" deviceset="CONN_13" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:5921581/2" value="NO_BOM"/>
 <part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="USR" library="Inventas-Buttons" library_urn="urn:adsk.eagle:library:3296773" deviceset="KMR2" device="" package3d_urn="urn:adsk.eagle:package:5816156/1" value="KMR2"/>
+<part name="USR" library="Inventas-Buttons" library_urn="urn:adsk.eagle:library:3296773" deviceset="KMR2" device="" package3d_urn="urn:adsk.eagle:package:5816156/2" value="KMR2"/>
 <part name="C2" library="Inventas-Passives" library_urn="urn:adsk.eagle:library:3125287" deviceset="CAP-6.3V-20%" device="-0603" package3d_urn="urn:adsk.eagle:package:3125640/2" value="1.0uF"/>
-<part name="NFC" library="Inventas-Connectors" library_urn="urn:adsk.eagle:library:3667136" deviceset="51281-0594" device="" package3d_urn="urn:adsk.eagle:package:5816150/1" value="51281-0594"/>
+<part name="NFC" library="Inventas-Connectors" library_urn="urn:adsk.eagle:library:3667136" deviceset="51281-0594" device="" package3d_urn="urn:adsk.eagle:package:5816150/2" value="51281-0594"/>
 <part name="C3" library="Inventas-Passives" library_urn="urn:adsk.eagle:library:3125287" deviceset="CAP-6.3V-20%" device="-0402" package3d_urn="urn:adsk.eagle:package:3125639/2" value="300pF"/>
 <part name="C4" library="Inventas-Passives" library_urn="urn:adsk.eagle:library:3125287" deviceset="CAP-6.3V-20%" device="-0402" package3d_urn="urn:adsk.eagle:package:3125639/2" value="300pF"/>
 <part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -3093,21 +3179,23 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VDD" device=""/>
 <part name="GND14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="B1" library="Inventas-Misc" library_urn="urn:adsk.eagle:library:3667010" deviceset="BATTERY" device="-BU2032" package3d_urn="urn:adsk.eagle:package:5825591/1"/>
-<part name="IC2" library="Inventas-IC" library_urn="urn:adsk.eagle:library:3137148" deviceset="HOLYIOT_18010" device="" package3d_urn="urn:adsk.eagle:package:5825596/1"/>
+<part name="B1" library="Inventas-Misc" library_urn="urn:adsk.eagle:library:3667010" deviceset="BATTERY" device="-BU2032" package3d_urn="urn:adsk.eagle:package:5825591/2"/>
+<part name="IC2" library="Inventas-IC" library_urn="urn:adsk.eagle:library:3137148" deviceset="HOLYIOT_18010" device="" package3d_urn="urn:adsk.eagle:package:5825596/2"/>
 <part name="R6" library="Inventas-Passives" library_urn="urn:adsk.eagle:library:3125287" deviceset="RES-0.063W-1%-" device="0402" package3d_urn="urn:adsk.eagle:package:3125390/3" value="TBD"/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VDD" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C1" library="Inventas-Passives" library_urn="urn:adsk.eagle:library:3125287" deviceset="CAP-6.3V-20%" device="-0402" package3d_urn="urn:adsk.eagle:package:3125639/2" value="0.1uF"/>
-<part name="IC1" library="Inventas-IC" library_urn="urn:adsk.eagle:library:3137148" deviceset="MMA8652FCR1" device="" package3d_urn="urn:adsk.eagle:package:5825597/1"/>
+<part name="IC1" library="Inventas-IC" library_urn="urn:adsk.eagle:library:3137148" deviceset="MMA8652FCR1" device="" package3d_urn="urn:adsk.eagle:package:5825597/3"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VDD" device=""/>
 <part name="C5" library="Inventas-Passives" library_urn="urn:adsk.eagle:library:3125287" deviceset="CAP-6.3V-20%" device="-0402" package3d_urn="urn:adsk.eagle:package:3125639/2" value="0.1uF"/>
 <part name="C8" library="Inventas-Passives" library_urn="urn:adsk.eagle:library:3125287" deviceset="CAP-6.3V-20%" device="-0402" package3d_urn="urn:adsk.eagle:package:3125639/2" value="1uF"/>
-<part name="IC3" library="Inventas-IC" library_urn="urn:adsk.eagle:library:3137148" deviceset="AT30TS74" device="-SS8M-T" package3d_urn="urn:adsk.eagle:package:3137286/3"/>
+<part name="IC3" library="Inventas-IC" library_urn="urn:adsk.eagle:library:3137148" deviceset="AT30TS74" device="-SS8M-T" package3d_urn="urn:adsk.eagle:package:3137286/4"/>
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VDD" device=""/>
 <part name="C9" library="Inventas-Passives" library_urn="urn:adsk.eagle:library:3125287" deviceset="CAP-6.3V-20%" device="-0402" package3d_urn="urn:adsk.eagle:package:3125639/2" value="0.1uF"/>
+<part name="R1" library="Inventas-Passives" library_urn="urn:adsk.eagle:library:3125287" deviceset="RES-0.063W-5%-" device="0402" package3d_urn="urn:adsk.eagle:package:3125390/3" value="0R"/>
+<part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3116,53 +3204,170 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <text x="76.2" y="193.04" size="5.08" layer="97">add at30ts74 temperature sensor</text>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="PROG" gate="G$1" x="43.18" y="30.48"/>
-<instance part="SUPPLY1" gate="VDD" x="22.86" y="40.64"/>
-<instance part="GND2" gate="1" x="20.32" y="17.78"/>
-<instance part="SUPPLY4" gate="VDD" x="243.84" y="68.58"/>
-<instance part="GND3" gate="1" x="243.84" y="45.72"/>
-<instance part="D1" gate="G$1" x="223.52" y="152.4"/>
-<instance part="D2" gate="G$1" x="241.3" y="152.4"/>
-<instance part="R2" gate="G$1" x="223.52" y="139.7" rot="R90"/>
-<instance part="R3" gate="G$1" x="241.3" y="139.7" rot="R90"/>
-<instance part="SUPPLY5" gate="VDD" x="223.52" y="157.48"/>
-<instance part="SUPPLY6" gate="VDD" x="241.3" y="157.48"/>
-<instance part="J2" gate="G$1" x="48.26" y="142.24"/>
-<instance part="J1" gate="G$1" x="15.24" y="142.24"/>
-<instance part="GND6" gate="1" x="208.28" y="93.98"/>
-<instance part="USR" gate="G$1" x="218.44" y="101.6"/>
-<instance part="C2" gate="G$1" x="243.84" y="55.88"/>
-<instance part="NFC" gate="G$1" x="50.8" y="88.9" rot="R180"/>
-<instance part="C3" gate="G$1" x="33.02" y="78.74"/>
-<instance part="C4" gate="G$1" x="33.02" y="96.52"/>
-<instance part="GND9" gate="1" x="33.02" y="106.68" rot="R180"/>
-<instance part="GND10" gate="1" x="33.02" y="71.12"/>
-<instance part="C6" gate="G$1" x="104.14" y="53.34"/>
-<instance part="C7" gate="G$1" x="157.48" y="60.96"/>
-<instance part="R4" gate="G$1" x="149.86" y="81.28" rot="R90"/>
-<instance part="R5" gate="G$1" x="114.3" y="81.28" rot="R90"/>
-<instance part="SUPPLY9" gate="VDD" x="109.22" y="91.44"/>
-<instance part="GND14" gate="1" x="152.4" y="50.8"/>
-<instance part="GND15" gate="1" x="104.14" y="43.18"/>
-<instance part="B1" gate="G$1" x="185.42" y="76.2"/>
-<instance part="IC2" gate="G$1" x="134.62" y="144.78"/>
-<instance part="R6" gate="G$1" x="198.12" y="144.78" rot="R90"/>
-<instance part="SUPPLY3" gate="VDD" x="185.42" y="86.36"/>
-<instance part="GND1" gate="1" x="185.42" y="66.04"/>
-<instance part="C1" gate="G$1" x="231.14" y="55.88"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="181.61" y="11.43" size="2.54" layer="94" font="vector"/>
+<attribute name="LAST_DATE_TIME" x="181.61" y="6.35" size="2.286" layer="94" font="vector"/>
+<attribute name="SHEET" x="195.58" y="1.27" size="2.54" layer="94" font="vector"/>
+</instance>
+<instance part="PROG" gate="G$1" x="43.18" y="30.48" smashed="yes">
+<attribute name="NAME" x="30.48" y="38.354" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="30.48" y="20.574" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="SUPPLY1" gate="VDD" x="22.86" y="40.64" smashed="yes">
+<attribute name="VALUE" x="22.86" y="43.434" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND2" gate="1" x="20.32" y="17.78" smashed="yes">
+<attribute name="VALUE" x="20.32" y="17.526" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY4" gate="VDD" x="243.84" y="68.58" smashed="yes">
+<attribute name="VALUE" x="243.84" y="71.374" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND3" gate="1" x="243.84" y="45.72" smashed="yes">
+<attribute name="VALUE" x="243.84" y="45.466" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="D1" gate="G$1" x="223.52" y="152.4" smashed="yes">
+<attribute name="NAME" x="220.091" y="147.828" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="225.425" y="147.828" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+</instance>
+<instance part="D2" gate="G$1" x="241.3" y="152.4" smashed="yes">
+<attribute name="NAME" x="237.871" y="147.828" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="243.205" y="147.828" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+</instance>
+<instance part="R2" gate="G$1" x="223.52" y="139.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="221.996" y="139.7" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="225.044" y="139.7" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="R3" gate="G$1" x="241.3" y="139.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="239.776" y="139.7" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="242.824" y="139.7" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="SUPPLY5" gate="VDD" x="223.52" y="157.48" smashed="yes">
+<attribute name="VALUE" x="223.52" y="160.274" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY6" gate="VDD" x="241.3" y="157.48" smashed="yes">
+<attribute name="VALUE" x="241.3" y="160.274" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="J2" gate="G$1" x="48.26" y="142.24" smashed="yes">
+<attribute name="VALUE" x="48.26" y="122.174" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="48.26" y="160.528" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="J1" gate="G$1" x="15.24" y="142.24" smashed="yes">
+<attribute name="VALUE" x="15.24" y="122.174" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="15.24" y="160.528" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="GND6" gate="1" x="208.28" y="93.98" smashed="yes">
+<attribute name="VALUE" x="208.28" y="93.726" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="USR" gate="G$1" x="218.44" y="101.6" smashed="yes">
+<attribute name="NAME" x="218.44" y="103.124" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="218.44" y="101.092" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="C2" gate="G$1" x="243.84" y="55.88" smashed="yes">
+<attribute name="NAME" x="245.364" y="58.801" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="245.364" y="53.721" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="NFC" gate="G$1" x="50.8" y="88.9" smashed="yes" rot="R180">
+<attribute name="VALUE" x="53.34" y="98.806" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="53.34" y="80.772" size="1.778" layer="95" font="vector" rot="R180"/>
+</instance>
+<instance part="C3" gate="G$1" x="33.02" y="78.74" smashed="yes">
+<attribute name="NAME" x="34.544" y="81.661" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="34.544" y="76.581" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="C4" gate="G$1" x="33.02" y="96.52" smashed="yes">
+<attribute name="NAME" x="34.544" y="99.441" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="34.544" y="94.361" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND9" gate="1" x="33.02" y="106.68" smashed="yes" rot="R180">
+<attribute name="VALUE" x="33.02" y="106.934" size="1.778" layer="96" rot="R180" align="top-center"/>
+</instance>
+<instance part="GND10" gate="1" x="33.02" y="71.12" smashed="yes">
+<attribute name="VALUE" x="33.02" y="70.866" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="C6" gate="G$1" x="104.14" y="53.34" smashed="yes">
+<attribute name="NAME" x="105.664" y="56.261" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="105.664" y="51.181" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="C7" gate="G$1" x="157.48" y="60.96" smashed="yes">
+<attribute name="NAME" x="159.004" y="63.881" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="159.004" y="58.801" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="R4" gate="G$1" x="149.86" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="148.336" y="81.28" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="151.384" y="81.28" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="R5" gate="G$1" x="114.3" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="112.776" y="81.28" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="115.824" y="81.28" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="SUPPLY9" gate="VDD" x="109.22" y="91.44" smashed="yes">
+<attribute name="VALUE" x="109.22" y="94.234" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND14" gate="1" x="152.4" y="50.8" smashed="yes">
+<attribute name="VALUE" x="152.4" y="50.546" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND15" gate="1" x="104.14" y="43.18" smashed="yes">
+<attribute name="VALUE" x="104.14" y="42.926" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="B1" gate="G$1" x="185.42" y="76.2" smashed="yes">
+<attribute name="NAME" x="180.34" y="80.518" size="1.778" layer="95" font="vector" align="bottom-center"/>
+</instance>
+<instance part="IC2" gate="G$1" x="134.62" y="144.78" smashed="yes">
+<attribute name="NAME" x="133.35" y="172.72" size="1.778" layer="95" align="center"/>
+</instance>
+<instance part="R6" gate="G$1" x="198.12" y="144.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="196.596" y="144.78" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="199.644" y="144.78" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="SUPPLY3" gate="VDD" x="185.42" y="86.36" smashed="yes">
+<attribute name="VALUE" x="185.42" y="89.154" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND1" gate="1" x="185.42" y="66.04" smashed="yes">
+<attribute name="VALUE" x="185.42" y="65.786" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="C1" gate="G$1" x="231.14" y="55.88" smashed="yes">
+<attribute name="NAME" x="232.664" y="58.801" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="232.664" y="53.721" size="1.778" layer="96" font="vector"/>
+</instance>
 <instance part="IC1" gate="G$1" x="116.84" y="73.66" smashed="yes">
 <attribute name="NAME" x="128.27" y="78.74" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="123.19" y="58.42" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="SUPPLY2" gate="VDD" x="157.48" y="68.58"/>
-<instance part="C5" gate="G$1" x="114.3" y="53.34"/>
-<instance part="C8" gate="G$1" x="93.98" y="53.34"/>
-<instance part="IC3" gate="G$1" x="109.22" y="25.4"/>
-<instance part="GND4" gate="1" x="104.14" y="12.7"/>
-<instance part="GND5" gate="1" x="147.32" y="7.62"/>
-<instance part="SUPPLY7" gate="VDD" x="147.32" y="30.48"/>
-<instance part="C9" gate="G$1" x="152.4" y="17.78"/>
+<instance part="SUPPLY2" gate="VDD" x="157.48" y="68.58" smashed="yes">
+<attribute name="VALUE" x="157.48" y="71.374" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="C5" gate="G$1" x="114.3" y="53.34" smashed="yes">
+<attribute name="NAME" x="115.824" y="56.261" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="115.824" y="51.181" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="C8" gate="G$1" x="93.98" y="53.34" smashed="yes">
+<attribute name="NAME" x="95.504" y="56.261" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="95.504" y="51.181" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="IC3" gate="G$1" x="109.22" y="25.4" smashed="yes">
+<attribute name="NAME" x="125.73" y="30.48" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="125.73" y="12.7" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="GND4" gate="1" x="104.14" y="12.7" smashed="yes">
+<attribute name="VALUE" x="104.14" y="12.446" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND5" gate="1" x="147.32" y="7.62" smashed="yes">
+<attribute name="VALUE" x="147.32" y="7.366" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY7" gate="VDD" x="147.32" y="30.48" smashed="yes">
+<attribute name="VALUE" x="147.32" y="33.274" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="C9" gate="G$1" x="152.4" y="17.78" smashed="yes">
+<attribute name="NAME" x="153.924" y="20.701" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="153.924" y="15.621" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="R1" gate="G$1" x="190.5" y="45.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="188.976" y="45.72" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="192.024" y="45.72" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="GND7" gate="1" x="190.5" y="35.56" smashed="yes">
+<attribute name="VALUE" x="190.5" y="35.306" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3305,6 +3510,11 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="129.54" x2="63.5" y2="129.54" width="0.1524" layer="91"/>
 <label x="63.5" y="129.54" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="GND7" gate="1" pin="GND"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="38.1" x2="190.5" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -3655,6 +3865,12 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="129.54" x2="30.48" y2="129.54" width="0.1524" layer="91"/>
 <label x="30.48" y="129.54" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="50.8" x2="190.5" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="53.34" x2="198.12" y2="53.34" width="0.1524" layer="91"/>
+<label x="198.12" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="P1.03" class="0">
